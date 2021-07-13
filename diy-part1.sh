@@ -21,6 +21,6 @@
 echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
-# luci-theme-argon for 18.06 by jerrykuku | set default theme
+# luci-theme-argon for 18.06 by jerrykuku
 rm -rf package/lean/luci-theme-argon
 git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
