@@ -25,4 +25,5 @@ echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 #rm -rf package/lean/luci-theme-argon
 #git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon
 
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/mine/luci-theme-argon_new
+rm -rf package/lean/luci-theme-argon
+git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/lean/luci-theme-argon_new
